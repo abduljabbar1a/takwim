@@ -1,5 +1,9 @@
 
+var TelegramBot = require('node-telegram-bot-api');
 
+var token = '1468220555:AAEXvDaC7Wx5HN4RZ2Vgm5TInUnUjKuLjhQ';
+var bot = new TelegramBot(token, {polling: true});
+bot.on("polling_error", (err) => console.log(err));
 
 
 var linke= 'https://www.youtube.com/watch?v=';
