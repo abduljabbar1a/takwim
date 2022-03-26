@@ -10,11 +10,6 @@ const pathh = 'https://github.com/abduljabbar1a/takwim/edit/main/delet.txt';
 var linke= 'https://www.youtube.com/watch?v=';
 bot.on("message",function(msg){
 var monn = msg.text;
-  var nok = monn.indexOf(".");
-   
-let index = memb.indexOf(monn);
-
-    
   if(msg.text == '/start'){
   rep = 'يسعدنا إنضمامك الى مجموعة حل تمارين الهندسة';
   tito='اضغط للاشتراك في المجموعة '};
@@ -23,7 +18,7 @@ let index = memb.indexOf(monn);
       inline_keyboard: [
           [{
               text: pathh ,
-              url: linke+ylin[index]
+              url: 'https'
           }]
       ]
   
