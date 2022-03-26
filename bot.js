@@ -5,7 +5,7 @@ var token = '5266816142:AAHG9RC8tQ4j57Sy0s1ae94hAYI1nIoWxSQ';
 var bot = new TelegramBot(token, {polling: true});
 bot.on("polling_error", (err) => console.log(err));
 
-const pathh='https://github.com/abduljabbar1a/takwim/edit/main/delet.txt';
+const pathh = 'https://github.com/abduljabbar1a/takwim/edit/main/delet.txt';
 
 var linke= 'https://www.youtube.com/watch?v=';
 bot.on("message",function(msg){
