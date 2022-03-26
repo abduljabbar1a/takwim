@@ -13,6 +13,7 @@ var monn = msg.text;
   if(msg.text == '/start'){
   rep = 'يسعدنا إنضمامك الى مجموعة حل تمارين الهندسة';
   tito='اضغط للاشتراك في المجموعة '};
+  
  bot.sendMessage(msg.chat.id,rep, {
   reply_markup: {
       inline_keyboard: [
@@ -20,8 +21,8 @@ var monn = msg.text;
               text: pathh ,
               url: 'https'
           }]
-      ]
-  
-});
-}
+                       ]
+                 }
+                                  });
+                               
 });
