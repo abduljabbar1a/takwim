@@ -8,13 +8,14 @@ bot.on("polling_error", (err) => console.log(err));
 const pathh = 'https://github.com/abduljabbar1a/takwim/edit/main/delet.txt';
 
 var linke= 'https://www.youtube.com/watch?v=';
+
 bot.on("message",function(msg){
-var monn = msg.text;
+      var monn = msg.text;
   if(msg.text == '/start'){
   rep = 'يسعدنا إنضمامك الى مجموعة حل تمارين الهندسة';
   tito='اضغط للاشتراك في المجموعة '};
   
- bot.sendMessage(msg.chat.id,rep, {
+ bot.sendMessage(msg.chat.id,'hello', {
   reply_markup: {
       inline_keyboard: [
           [{
