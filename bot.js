@@ -13,7 +13,7 @@ var monn = msg.text;
   var nok = monn.indexOf(".");
    
 let index = memb.indexOf(monn);
-if(index>-1){
+
     
   if(msg.text == '/start'){
   rep = 'يسعدنا إنضمامك الى مجموعة حل تمارين الهندسة';
@@ -22,11 +22,11 @@ if(index>-1){
   reply_markup: {
       inline_keyboard: [
           [{
-              text: tito ,
+              text: pathh ,
               url: linke+ylin[index]
           }]
       ]
-  }
+  
 });
 }
 });
